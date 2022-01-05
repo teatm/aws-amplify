@@ -1,0 +1,41 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-workoutdiary-dev-223927-authRole",
+      "UnauthRoleArn": "arn:aws:iam::202475087985:role/amplify-workoutdiary-dev-223927-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::202475087985:role/amplify-workoutdiary-dev-223927-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-workoutdiary-dev-223927-deployment",
+      "UnauthRoleName": "amplify-workoutdiary-dev-223927-unauthRole",
+      "StackName": "amplify-workoutdiary-dev-223927",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:202475087985:stack/amplify-workoutdiary-dev-223927/43f7fd20-5ce3-11ec-ace6-061edc67a11d",
+      "AmplifyAppId": "dhmvto0ko5li"
+    }
+  },
+  "api": {
+    "workoutdiary": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "ctrq6gkwnvfa3adkvn2ykcovpy",
+        "GraphQLAPIEndpointOutput": "https://hj6l2w4qx5fivozvgszsirtg2m.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-hri7z6aqvjdvlkwpd5knngz6dy"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-workoutdiary-dev-223927-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiworkoutdiary"
+      },
+      "lastPushTimeStamp": "2021-12-14T14:16:38.432Z",
+      "lastPushDirHash": "eJyGJLxueXgENt3WAyFca5c70Hs="
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-workoutdiary-dev-223927-authRole",
+      "UnauthRoleArn": "arn:aws:iam::202475087985:role/amplify-workoutdiary-dev-223927-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::202475087985:role/amplify-workoutdiary-dev-223927-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-workoutdiary-dev-223927-deployment",
+      "UnauthRoleName": "amplify-workoutdiary-dev-223927-unauthRole",
+      "StackName": "amplify-workoutdiary-dev-223927",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:202475087985:stack/amplify-workoutdiary-dev-223927/43f7fd20-5ce3-11ec-ace6-061edc67a11d",
+      "AmplifyAppId": "dhmvto0ko5li"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "workoutdiary",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-workoutdiary-dev-223927-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/14263922c49dee8ee09e25ed0fd6df7abec96546"
+}
